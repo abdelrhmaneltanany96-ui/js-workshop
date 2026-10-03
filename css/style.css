@@ -1,13 +1,45 @@
-#mouseChangeImg{
+/* #mouseChangeImg{
     width: 30px;
     left: 0;
     top: 0;
     position: absolute;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%); */
     /* to avoid the mouse pointer to be on the image and to avoid the image to be clicked */
-    pointer-events: none;
+    /* pointer-events: none;
 }
 
 html{
     cursor: none;
+} */
+
+
+
+
+
+
+
+.caption {
+    bottom: 20px;
+    left: 25%;
+    width: 50%;
+}
+
+.lightbox-container{
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.lightbox-img{
+    width: 50%;
+    height: 75vh;
+    /* background: url(../imgs/latest-games-2.png); */
+    background-size: cover;
+    background-position: center;
+}
+
+.lightbox-img i {
+    margin:10px;
+    font-size: 20px;
+    cursor: pointer;
+
 }
