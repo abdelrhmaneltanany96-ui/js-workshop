@@ -1,0 +1,13 @@
+#mouseChangeImg{
+    width: 30px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    /* to avoid the mouse pointer to be on the image and to avoid the image to be clicked */
+    pointer-events: none;
+}
+
+html{
+    cursor: none;
+}
